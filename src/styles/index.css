@@ -1,6 +1,5 @@
 body{
     background-image: url(https://img.freepik.com/foto-gratis/cuaderno-plano-lista-tareas-pendientes-escritorio_23-2148938726.jpg?w=2000);
-    background-size: cover;
     color: black;
 }
 
@@ -9,10 +8,10 @@ p{
 }
 
 span{
-    display: none;
+    display: none !important;
 }
 
 li:hover span{
-    display: block;
+    display: block !important;
     cursor: pointer;
 }
